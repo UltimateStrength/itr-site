@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ITR - Sistema para Gestão de Reagentes</title>
+<meta name="description" content="ITR - sistema web para gestão de reagentes químicos do laboratório de Tecnologia em Alimentos, IFPR Campus Colombo.">
+<link rel="icon" href="assets/img/logos/itr-icon.png" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<a class="skip-link" href="#app">Ir para o conteúdo</a>
+
+<header class="site-header">
+  <a class="brand" href="#/">
+    <img src="assets/img/logos/itr-icon.png" alt="">
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navOverlay" aria-label="Abrir menu">
+    <img class="icon-menu" src="assets/img/icons/menu.svg" alt="" width="24" height="24">
+    <img class="icon-close" src="assets/img/icons/close.svg" alt="" width="24" height="24">
+  </button>
+</header>
+
+<nav class="nav-overlay" id="navOverlay">
+  <ul>
+    <li><a href="#/" data-route="/"><span class="nav-index">01</span> Início</a></li>
+    <li><a href="#/app" data-route="/app"><span class="nav-index">02</span> O app</a></li>
+    <li><a href="#/historia" data-route="/historia"><span class="nav-index">03</span> História do projeto</a></li>
+    <li><a href="#/slides" data-route="/slides"><span class="nav-index">04</span> Slides</a></li>
+    <li><a href="#/contato" data-route="/contato"><span class="nav-index">05</span> Contato</a></li>
+  </ul>
+  <p class="nav-foot">IFTech - Campus Colombo</p>
+</nav>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="site-footer">
+  <div class="wave-wrap" aria-hidden="true">
+    <svg viewBox="0 0 1600 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 30 C 100 0, 200 60, 300 30 C 400 0, 500 60, 600 30 C 700 0, 800 60, 900 30 C 1000 0, 1100 60, 1200 30 C 1300 0, 1400 60, 1500 30 C 1550 15, 1580 15, 1600 30 L1600 60 L0 60 Z"
+            fill="#F4F5F0" opacity="0.08"/>
+      <path d="M800 30 C 900 0, 1000 60, 1100 30 C 1200 0, 1300 60, 1400 30 C 1500 0, 1600 60, 1700 30 C 1800 0, 1900 60, 2000 30 C 2100 0, 2200 60, 2300 30 C 2350 15, 2380 15, 2400 30 L2400 60 L800 60 Z"
+            fill="#F4F5F0" opacity="0.08"/>
+    </svg>
+  </div>
+  <div class="footer-inner">
+    <p class="line1"><a href="https://ultimatestrength.github.io/portfolio/" target="_blank" rel="noopener">FINISAUTEMPOTENTIAE © | Ulti Corp. 2019 - 2026</a></p>
+    <p>Desenvolvido por <a href="https://github.com/UltimateStrength" target="_blank" rel="noopener">Marcos (Ulti)</a></p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
